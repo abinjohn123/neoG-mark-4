@@ -92,7 +92,7 @@ body {
   display: inline-block;
   margin-top: 1rem;
   font-weight: 600;
-  width: 10rem;
+  min-width: 10rem;
   text-align: center;
 }
 .link-btn-primary {
@@ -123,4 +123,34 @@ body {
 /* Image style */
 .img-hero {
   height: 42rem;
+}
+
+/* Projects page styling */
+.projects {
+  max-width: 90rem;
+}
+
+.projects-header {
+  margin-bottom: 4rem;
+}
+
+.projects-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.project-item {
+  border: solid 1px var(--prim-shade-2);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.project-title {
+  color: var(--text-clr);
+}
+.project-date {
+  display: inline-block;
+  margin-bottom: 1.4rem;
 }
