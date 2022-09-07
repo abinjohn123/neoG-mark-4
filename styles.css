@@ -43,6 +43,7 @@ body {
 .centered {
   width: 80vw;
   margin: auto;
+  padding-bottom: 1rem;
 }
 
 .split {
