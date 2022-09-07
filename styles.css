@@ -79,7 +79,8 @@ body {
 .link-white {
   color: var(--bg-clr);
 }
-.link-white:hover {
+.link-white:hover,
+.link-active {
   color: var(--prim-shade-3);
 }
 
