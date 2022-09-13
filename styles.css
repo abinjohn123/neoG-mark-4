@@ -7,6 +7,7 @@
   --prim-shade-2: #065940;
   --prim-shade-3: #033324;
   --prim-tint-1: #e6fcf5;
+  --prim-bg: #cee5de;
 
   --text-clr: #010d09;
   --bg-clr: #e6f2ef;
@@ -35,6 +36,14 @@ body {
   padding: 2.4rem 4rem;
 }
 
+.m1 {
+  margin-bottom: 1rem;
+}
+
+.m4 {
+  margin-bottom: 4rem;
+}
+
 /* container styling */
 .main {
   height: 90%;
@@ -59,6 +68,10 @@ body {
   align-items: center;
 }
 
+.tech-stack h2 {
+  color: var(--prim-shade-1);
+}
+
 /* List styling */
 .inline {
   display: flex;
@@ -70,6 +83,21 @@ body {
 
 .non-bullets > li {
   list-style: none;
+}
+
+.tech-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.tech-list li {
+  font-size: 1.4rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  background-color: var(--prim-bg);
+  color: var(--prim-shade-3);
 }
 
 /* Link styling */
